@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer and Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>Timer and Stopwatch</h1>
+        <ul class="nav-links">
+            <li><a href="#" id="stopwatch-link">Stopwatch</a></li>
+            <li><a href="#" id="timer-link">Timer</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <button id="toggle-btn">Switch to Timer</button>
+        <div class="card" id="stopwatch-card">
+            <div id="date-time"></div>
+            <div id="display">0</div>
+            <div id="buttons">
+                <button id="start-btn">Start</button>
+                <button id="stop-btn">Stop</button>
+                <button id="reset-btn">Reset</button>
+            </div>
+        </div>
+        <div class="card" id="timer-card" style="display: none;">
+            <div id="countdown-display">00:00:00</div>
+            <div id="countdown-inputs">
+                <input type="number" id="hours" placeholder="HH" min="0">
+                <input type="number" id="minutes" placeholder="MM" min="0" max="59">
+                <input type="number" id="seconds" placeholder="SS" min="0" max="59">
+            </div>
+            <div id="countdown-buttons">
+                <button id="start-countdown-btn">Start Countdown</button>
+                <button id="stop-countdown-btn">Stop Countdown</button>
+                <button id="reset-countdown-btn">Reset Countdown</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

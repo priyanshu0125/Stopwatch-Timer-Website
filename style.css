@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #503a3a;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    background-color: #2e2828;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    position: absolute;
+    top: 0;
+}
+
+.navbar h1 {
+    color: #fef4f4;
+    margin: 0;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fef4f4;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav-links a:hover{
+    color: #A2B2EE;
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #2e2828;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+button {
+    background-color: #fef4f4;
+    color: #2E3239;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #A2B2EE;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f65151;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#display, #countdown-display {
+    font-size: 3rem;
+    color: #26292B;
+    margin: 20px 0;
+}
+
+#buttons, #countdown-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#countdown-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#countdown-inputs input {
+    width: 60px;
+    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#toggle-btn {
+    background-color: #fef4f4;
+}
+
+#toggle-btn:hover {
+    background-color: #A2B2EE;
+}
+
+#date-time {
+    font-size: 1.2rem;
+    color: #2E3239;
+    margin-bottom: 20px;
+}
